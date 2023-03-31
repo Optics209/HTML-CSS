@@ -1,0 +1,177 @@
+body {
+  background-color: #1b1b32;;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  background-blend-mode: multiply;
+  font-family: Tahoma;
+  font-size: 14px;
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+  height:100vh;
+}
+
+#title {
+  font-size: 40px;
+  margin: 25px 0 0 0;
+  text-align: center;
+}
+
+#description {
+  color: #bbbbbb;
+  letter-spacing: 1.5;
+  text-align: center;
+  margin: 10px 0 25px 0;
+}
+
+fieldset {
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 0.5px solid #3b3b4f;
+  border-top: 3px solid #3b3b4f;
+  border-style: auto;
+}
+
+#personal-details-label, firstname-label, middlename-label, lastname-label, age-label{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 30px;
+  background-color: #eee3;
+  margin: none;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+#gender-label{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 30px;
+  margin: none;
+  border-radius: 6px;
+}
+
+#address-label, residential-address-label{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 30px;
+  background-color: #eee3;
+  margin: none;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+#tel-number-label{
+ display: block;
+ box-sizing: border-box;
+ width: 100%;
+ min-height: 30px;
+ margin: none;
+ border-radius: 6px;
+}
+
+#email-label{
+ display: block;
+ box-sizing: border-box;
+ width: 100%;
+ min-height: 30px;
+ margin: none;
+ border-radius: 6px;
+}
+
+#other-label, edulevel-label{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 30px;
+  background-color: #eee3;
+  margin: none;
+  padding: 15;
+  border-radius: 6px;
+}
+
+#employment-status-label{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 30px;
+  margin: none;
+  border-radius: 6px;
+}
+
+#marital-status-label{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 30px;
+  margin: none;
+  border-radius: 6px;
+}
+
+#declaration-label{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #eee3;
+  min-height: 30px;
+  margin: none;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  width: 250px;
+  min-height: 15px;
+  font-size: 12.5px;
+  padding: 10px;
+  border-radius: 35px;
+  border-style: none;
+  background-color:#0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+  margin:3px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  width: 10px;
+  min-height: 0px;
+  margin: 12px;
+  transform: scale(2);
+}
+
+textarea {
+  width: 100%;
+  border-radius: 10px;
+  border-style: none;
+  background-color:#0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+  min-height: 100px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+button {
+  background-color: #3f0f3e;
+  font-size: 18px;
+  padding: 10px;
+  min-width: 200px;
+  border-style: none;
+  border-radius: 6px;
+  margin-top:10px;
+  margin-bottom:30px;
+  margin-left:35%;
+  margin-right:35%;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}

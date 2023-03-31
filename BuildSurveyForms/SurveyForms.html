@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta chaset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="BuildSurveyForms_styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please take your time and fill this forms. Thank You!!!</p>
+    <form id="survey-form">
+      <fieldset> 
+        <label id="personal-details-label" type="text" class="label">PERSONAL DETAILS :</label>
+        <label id="firstname-label" class="label"> First Name: 
+          <input id="firstname" type="text" required placeholder="Enter your first name"/>
+        </label>
+         <label id="middlename-label" class="label"> Middle Name: 
+          <input id="middlename" type="text" required placeholder="Enter your middle name"/>
+        </label>
+        <label id="lastname-label" class="label"> Last Name: 
+          <input id="lastname" type="text" required placeholder="Enter your last name"/>
+        </label>
+        <label id="age-label" class="label"> Age: 
+          <input id="age" type="number" min="13" max="90" required placeholder="Enter your age"/>
+        </label>
+        <label id="gender-label" class="label">Gender: 
+          <select id="dropdown" required>
+            <option>Select one</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Transgender</option>
+            <option>Prefer Not to Disclose</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label id="address-label" type="text" class="label">ADDRESS :</label>
+        <label id="residential-address-label" class="label"> Residential Address: 
+          <input id="residential-label" type="text" required placeholder="Street Name"/>
+           <input id="residential-label" type="number" required placeholder="Apartment No."/>
+          <input id="residential-label" type="text" required placeholder="Town"/>
+          <input id="residential-label" type="text" required placeholder="State/Region"/>
+          <input id="residential-label" type="text" required placeholder="Country"/>
+          <input id="residential-label" type="number" required placeholder="Zip/Postal Code"/>
+        </label>
+        <label id="tel-number-label" class="label">Telephone Number: 
+          <input id="tel-number" type="text" required placeholder="Enter your number"/>
+        <label id="email-label" class="label"> Email: 
+          <input id="email" type="email" required placeholder="Enter your email"/>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label id="other-label" type="text" class="label">OTHERS :</label>
+        <label id="edulevel-label" class="label">Educational Level: 
+          <select id="dropdown" required>
+            <option>Select one</option>
+            <option>Certificate</option>
+            <option>Diploma</option>
+            <option>Degree</option>
+            <option>Masters</option>
+            <option>PhD</option>
+          </select>
+        </label>
+        <label id="employment-status-label" class="label">Employment Status: 
+          <input type="radio" value="employed" name="employment-status" required/> Employed
+          <input type="radio" value="unemployed" name="employment-status" required/> Unemployed
+          <input type="radio" value="student" name="employment-status" required/> Student
+        </label>
+        <label id="marital-status-label" class="label">Marital Status: 
+          <input type="radio" value="single" name="marital-status"/>Single
+          <input type="radio" value="married" name="marital-status"/>Married
+          <input type="radio" value="divorced" name="marital-status"/>Divorced
+        </label>
+        </fieldset>
+        <fieldset>
+        <label id="declaration-label" class="label"/>DECLARATION: </label>
+        <input class="certified" type="checkbox" value="certified" name="declaration" required/>I certify that the above information is true.
+        <input class="consent" type="checkbox" value="consent" name="declaration" required/> I consent to the use of my personal details.       
+      </fieldset>
+      <fieldset>
+        <label id="comment-label" class="label">Comments:
+           <textarea placeholder="Leave Any Extra Comments Here..."></textarea>
+        </label>
+      </fieldset>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
